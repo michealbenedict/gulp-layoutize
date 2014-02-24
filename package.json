@@ -3,7 +3,11 @@
   "version": "0.0.1",
   "description": "A plugin for Gulp",
   "keywords": [
-    "gulpplugin"
+    "gulp plugin",
+    "layoutize",
+    "templatize",
+    "template",
+    "gulp consolidate"
   ],
   "author": {
     "name": "Micheal Benedict (@micheal)",
