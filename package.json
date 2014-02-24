@@ -20,12 +20,12 @@
   },
   "dependencies": {
     "through2": "*",
-    "gulp-util": "~2.2.0"
+    "gulp-util": "~2.2.0",
+    "consolidate": "~0.10.0",
+    "node.extend": "~1.0.9"
   },
   "devDependencies": {
     "mocha": "*",
-    "consolidate": "~0.10.0",
-    "node.extend": "~1.0.9",
     "jade": "~1.1.5"
   },
   "engines": {
