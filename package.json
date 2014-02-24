@@ -1,0 +1,32 @@
+{
+  "name": "gulp-layoutize",
+  "version": "0.0.1",
+  "description": "A plugin for Gulp",
+  "keywords": [
+    "gulpplugin"
+  ],
+  "author": {
+    "name": "Micheal Benedict (@micheal)",
+    "email": "",
+    "url": "https://github.com/rowoot"
+  },
+  "repository": "rowoot/gulp-layoutize",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "through2": "*",
+    "gulp-util": "~2.2.0"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "consolidate": "~0.10.0",
+    "node.extend": "~1.0.9",
+    "jade": "~1.1.5"
+  },
+  "engines": {
+    "node": ">=0.8.0",
+    "npm": ">=1.2.10"
+  },
+  "license": "MIT"
+}
