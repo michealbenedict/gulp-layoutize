@@ -52,7 +52,6 @@ module.exports = function (opts) {
 		}
 
 		if (file.isBuffer()) {
-
 			fn(arg, extend(true, {
 				content: String(file.contents)
 			}, opts.locals),
@@ -62,7 +61,6 @@ module.exports = function (opts) {
 		        this.push(file);
 		        callback();
     		}.bind(this));
-
 		}
 	}
 
