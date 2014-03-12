@@ -1,7 +1,7 @@
 {
   "name": "gulp-layoutize",
   "version": "0.0.2",
-  "description": "A plugin for Gulp",
+  "description": "Render contents of input files through a templating engine (powered by consolidate.js)",
   "keywords": [
     "gulp plugin",
     "layoutize",
