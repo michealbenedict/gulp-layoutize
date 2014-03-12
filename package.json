@@ -4,11 +4,14 @@
   "description": "Render contents of input files through a templating engine (powered by consolidate.js)",
   "keywords": [
     "gulp plugin",
+    "gulpplugin",
     "layoutize",
     "templatize",
     "template",
     "gulp consolidate"
   ],
+  "homepage": "https://github.com/rowoot/gulp-layoutize/",
+  "bugs": "https://github.com/rowoot/gulp-layoutize/issues/",
   "author": {
     "name": "Micheal Benedict (@micheal)",
     "email": "",
