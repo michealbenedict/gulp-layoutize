@@ -15,7 +15,7 @@ it('should render template when using templatePath', function (cb) {
 	});
 
 	stream.on('data', function (file) {
-		assert.equal('<!DOCTYPE html><html lang="en"><head><title>Title</title></head><body><h1>Test</h1></body></html>', file.contents.toString());
+		assert.equal('<!DOCTYPE html><html lang="en"><head><title>Title</title></head><body><h1>Test</h1><p>file.html</p></body></html>', file.contents.toString());
 		cb();
 	});
 
@@ -35,7 +35,7 @@ it('should render template when using template (content)', function (cb) {
 	});
 
 	stream.on('data', function (file) {
-		assert.equal('<!DOCTYPE html><html lang="en"><head><title>Title</title></head><body><h1>Test</h1></body></html>', file.contents.toString());
+		assert.equal('<!DOCTYPE html><html lang="en"><head><title>Title</title></head><body><h1>Test</h1><p>file.html</p></body></html>', file.contents.toString());
 		cb();
 	});
 

@@ -58,6 +58,10 @@ Default: `{}`
 Required: `true`
 
 The locals object is passed as template variables to the templating engine. Refer to the templating engine guides on how to use variables in the template.
+Also, you have some predefined locals, refering to the current file:
+
+* content (String): content of the current file
+* file (Object): [vinyl](https://github.com/wearefractal/vinyl#file) file object with filename, path, etc.
 
 
 ## License
