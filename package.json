@@ -24,12 +24,13 @@
   "dependencies": {
     "through2": "*",
     "gulp-util": "~2.2.0",
-    "consolidate": "~0.10.0",
+    "consolidate": "git://github.com/markbirbeck/consolidate.js.git#154-add-liquid",
     "node.extend": "~1.0.9"
   },
   "devDependencies": {
     "mocha": "*",
-    "jade": "~1.1.5"
+    "jade": "~1.1.5",
+    "tinyliquid": "~0.2.22"
   },
   "engines": {
     "node": ">=0.8.0",
