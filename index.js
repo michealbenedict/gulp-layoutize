@@ -54,6 +54,7 @@ module.exports = function (opts) {
 		if (file.isBuffer()) {
 			fn(arg, extend(true, {
 				file: file,
+				meta: file.meta,
 				content: String(file.contents)
 			}, opts.locals),
       		function (err, html) {
